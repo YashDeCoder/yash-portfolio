@@ -23,18 +23,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-
-const GitHubIcon = () => {
-  return (
-    <Image
-      aria-hidden
-      src="/github-mark-white.svg"
-      alt="Github icon"
-      width={20}
-      height={20}
-    />
-  );
-};
+import GitHubIcon from "@/components/GithubIcon";
 
 const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
   [`& .${toggleButtonGroupClasses.grouped}`]: {
