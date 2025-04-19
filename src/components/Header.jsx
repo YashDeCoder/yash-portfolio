@@ -59,7 +59,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 flex flex-row justify-between w-full h-fit min-w-0 p-8">
+    <header className="sticky top-0 flex flex-row justify-between w-full h-fit min-w-0 p-8 bg-background">
       {/* Not centered */}
       <div className="flex justify-start items-center w-full">
         <Image
