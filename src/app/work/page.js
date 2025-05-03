@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ExperiencePage() {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen ">
+    <div className="flex flex-col md:flex-row min-h-screen">
       {/* Sidebar - Mobile: Top section, Desktop: Left sidebar */}
       <aside className="md:w-64 lg:w-72 p-8 flex flex-col items-center md:items-start md:fixed md:h-screen">
         <div className="mb-6 relative">
@@ -40,7 +40,7 @@ export default function ExperiencePage() {
       </aside>
 
       {/* Main content */}
-      <main className="flex-1 md:ml-72 lg:ml-80 p-8">
+      <main className="flex-1 md:ml-72 lg:ml-80 p-8  w-full md:max-w-fit">
         <div className="mb-12">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-2">
             Yash Israni
@@ -66,9 +66,8 @@ export default function ExperiencePage() {
           </div>
 
           <p className="text-gray-200 max-w-2xl leading-relaxed font-mono">
-            I am an Amsterdam-based software engineer with a passion for
-            transforming complex challenges into simple, elegant solutions. My
-            experience spans making dashboards, building design systems, and ...
+            I am an Amsterdam-based Software Engineer with a passion for
+            learning and a strong foundation in computer science
           </p>
         </div>
         {/* Work Experience section */}
@@ -79,7 +78,7 @@ export default function ExperiencePage() {
 
           {/* Current*/}
           <div className="mb-16">
-            <div className="flex flex-col md:flex-row justify-between mb-2">
+            <div className="flex flex-col lg:flex-row justify-between mb-2">
               <div>
                 <h3 className="text-2xl font-bold text-white">Labs Intern</h3>
                 <p className="text-gray-400">Schuberg Philis</p>
@@ -88,8 +87,10 @@ export default function ExperiencePage() {
             </div>
 
             <ul className="space-y-6 mt-6">
-              <li className="flex gap-3">
-                <div className="text-gray-400 mt-1.5">•</div>
+              <li className="flex gap-3 min-h-full">
+                <div className="text-gray-400 flex items-center flex-shrink-0">
+                  •
+                </div>
                 <p className="text-gray-200">
                   Currently working on a project to benchmark the performance of
                   a RAG (Retrieval-Augmented Generation) model, focusing on
@@ -97,7 +98,9 @@ export default function ExperiencePage() {
                 </p>
               </li>
               <li className="flex gap-3">
-                <div className="text-gray-400 mt-1.5">•</div>
+                <div className="text-gray-400 flex items-center flex-shrink-0">
+                  •
+                </div>
                 <p className="text-gray-200">
                   For this project, I am utilizing a combination of
                   <strong> Python, MongoDB and Multi-threading </strong>
@@ -109,7 +112,7 @@ export default function ExperiencePage() {
 
           {/* Second job */}
           <div>
-            <div className="flex flex-col md:flex-row justify-between mb-2">
+            <div className="flex flex-col lg:flex-row justify-between mb-2">
               <div>
                 <h3 className="text-2xl font-bold text-white">
                   Front-End Developer
@@ -121,7 +124,9 @@ export default function ExperiencePage() {
 
             <ul className="space-y-6 mt-6">
               <li className="flex gap-3">
-                <div className="text-gray-400 mt-1.5">•</div>
+                <div className="text-gray-400 flex items-center flex-shrink-0">
+                  •
+                </div>
                 <p className="text-gray-200">
                   Created dashboards and data visualizations for internal teams,
                   enabling data-driven decision-making and improving operational
@@ -129,7 +134,9 @@ export default function ExperiencePage() {
                 </p>
               </li>
               <li className="flex gap-3">
-                <div className="text-gray-400 mt-1.5">•</div>
+                <div className="text-gray-400 flex items-center flex-shrink-0">
+                  •
+                </div>
                 <p className="text-gray-200">
                   Made dashboards for clients, enhancing their ability to
                   understand and utilize their data effectively.
@@ -143,7 +150,7 @@ export default function ExperiencePage() {
           <h2 className="text-3xl font-bold text-white mb-8">Studies</h2>
           {/* Current */}
           <div className="mb-16">
-            <div className="flex flex-col md:flex-row justify-between mb-2">
+            <div className="flex flex-col lg:flex-row justify-between mb-2">
               <div>
                 <h3 className="text-2xl font-bold text-white">
                   MSc in Computer Science
@@ -157,7 +164,9 @@ export default function ExperiencePage() {
 
             <ul className="space-y-6 mt-6">
               <li className="flex gap-3">
-                <div className="text-gray-400 mt-1.5">•</div>
+                <div className="text-gray-400 flex items-center flex-shrink-0">
+                  •
+                </div>
                 <p className="text-gray-200">
                   My favorite subjects include{" "}
                   <strong>AI (Web Data Processing Systems)</strong>,{" "}
@@ -172,7 +181,7 @@ export default function ExperiencePage() {
           </div>
           {/* Bachelor */}
           <div>
-            <div className="flex flex-col md:flex-row justify-between mb-2">
+            <div className="flex flex-col lg:flex-row justify-between mb-2">
               <div>
                 <h3 className="text-2xl font-bold text-white">
                   BSc Computer Science & Engineering
@@ -186,7 +195,9 @@ export default function ExperiencePage() {
 
             <ul className="space-y-6 mt-6">
               <li className="flex gap-3">
-                <div className="text-gray-400 mt-1.5">•</div>
+                <div className="text-gray-400 flex items-center flex-shrink-0">
+                  •
+                </div>
                 <p className="text-gray-200">
                   My favorite subjects include <strong>Data Structures</strong>,{" "}
                   <strong>Algorrithms</strong>, and{" "}
